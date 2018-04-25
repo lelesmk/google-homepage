@@ -1,6 +1,8 @@
 # WEB DEVELOPMENT 101 PROJECT: HTML/CSS
 
-Description: An easy build of Google.com homepage
+Description: Build the [Google.com](https://www.google.com/) homepage
+
+Difficulty: Easy Version
 
 Skills: Basic HTML5, CSS3, Git and GitHub
 
