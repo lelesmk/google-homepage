@@ -42,7 +42,7 @@ nav .images {
 }
 
 nav .apps {
-    background: url(https://i.imgur.com/odaVACf.png) no-repeat 5px;
+    background: url(images/apps-off-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     box-sizing: border-box;
     height: 30px;
@@ -50,7 +50,7 @@ nav .apps {
 }
 
 nav .apps:hover {
-    background: url(https://i.imgur.com/bMDIY3U.png) no-repeat 5px;
+    background: url(images/apps-on-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     box-sizing: border-box;
     height: 30px;
@@ -58,7 +58,7 @@ nav .apps:hover {
 }
 
 nav .msg {
-    background: url(https://i.imgur.com/TiPUvUI.png) no-repeat 5px;
+    background: url(images/msg-off-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     verticle-align: middle;
     box-sizing: border-box;
@@ -67,7 +67,7 @@ nav .msg {
 }
 
 nav .msg:hover {
-    background: url(https://i.imgur.com/JrQ13z3.png) no-repeat 5px;
+    background: url(images/msg-on-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     box-sizing: border-box;
     height: 30px;
@@ -75,7 +75,7 @@ nav .msg:hover {
 }
 
 nav .account {
-    background: url(https://i.imgur.com/LJmq0C3.png) no-repeat 0px;
+    background: url(images/account-30x30px.png) no-repeat 0px;
     display: inline-block;
     box-sizing: border-box;
     height: 30px;
