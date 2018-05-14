@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+.topnav {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    top: 15px;
+    max-height: 30px;
+}
+
+.topnav div {
+    float: right;
+}
+
+.char {
+    padding: 0px;
+    margin: 0px;
+}
+
+.topnav a  {
+    text-decoration: none;
+    color: #191919;
+    margin: 0px 0px 0px 15px;
+}
+
+.icon {
+    display: block;
+}
+
+nav .mail {
+    display: inline-block;
+    margin: 7px 0px 7px 15px;
+}
+
+nav .images {
+    display: inline-block;
+    margin: 7px 0px 7px 15px;
+}
+
+nav .apps {
+    background: url(https://i.imgur.com/odaVACf.png) no-repeat 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}
+
+nav .apps:hover {
+    background: url(https://i.imgur.com/bMDIY3U.png) no-repeat 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}
+
+nav .msg {
+    background: url(https://i.imgur.com/TiPUvUI.png) no-repeat 5px;
+    display: inline-block;
+    verticle-align: middle;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}
+
+nav .msg:hover {
+    background: url(https://i.imgur.com/JrQ13z3.png) no-repeat 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}
+
+nav .account {
+    background: url(https://i.imgur.com/LJmq0C3.png) no-repeat 0px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    margin: 0px 30px 0px 15px;
+}
+
+a.mail:hover {
+    text-decoration: underline;
+    color: #A0A0A0;
+}
+
+a.images:hover {
+    text-decoration: underline;
+    color: #A0A0A0;
+}
