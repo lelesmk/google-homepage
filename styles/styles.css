@@ -2,7 +2,25 @@ body {
     margin: 0;
     font-family: arial,sans-serif;
     font-size: 13px;
+    color: #222;
 }
+
+#viewport {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.searchform {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 8px auto;
+}
+
+/* Navigation -------------------------*/
 
 .topnav {
     overflow: hidden;
@@ -16,7 +34,7 @@ body {
     float: right;
 }
 
-.char {
+.topnav .char {
     padding: 0px;
     margin: 0px;
 }
@@ -27,21 +45,21 @@ body {
     margin: 0px 0px 0px 15px;
 }
 
-.icon {
+.topnav .icon {
     display: block;
 }
 
-nav .mail {
+.topnav .mail {
     display: inline-block;
     margin: 7px 0px 7px 15px;
 }
 
-nav .images {
+.topnav .images {
     display: inline-block;
     margin: 7px 0px 7px 15px;
 }
 
-nav .apps {
+.topnav .apps {
     background: url(images/apps-off-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     box-sizing: border-box;
@@ -49,7 +67,7 @@ nav .apps {
     width: 30px;
 }
 
-nav .apps:hover {
+.topnav .apps:hover {
     background: url(images/apps-on-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     box-sizing: border-box;
@@ -57,7 +75,7 @@ nav .apps:hover {
     width: 30px;
 }
 
-nav .msg {
+.topnav .msg {
     background: url(images/msg-off-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     verticle-align: middle;
@@ -66,7 +84,7 @@ nav .msg {
     width: 30px;
 }
 
-nav .msg:hover {
+.topnav .msg:hover {
     background: url(images/msg-on-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     box-sizing: border-box;
@@ -74,7 +92,7 @@ nav .msg:hover {
     width: 30px;
 }
 
-nav .account {
+.topnav .account {
     background: url(images/account-30x30px.png) no-repeat 0px;
     display: inline-block;
     box-sizing: border-box;
@@ -91,4 +109,189 @@ a.mail:hover {
 a.images:hover {
     text-decoration: underline;
     color: #A0A0A0;
+}
+
+/* Google Form -------------------------*/
+
+.googlehead {
+  margin: 89px auto 25px;
+}
+
+.mainlogo {
+  padding-top: 109px;
+  height: 92px;
+  width: 272;
+}
+
+.searchbox {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 44px;
+  width: 571px;
+  background-color: #fff;
+  vertical-align: top;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.mic {
+  background: url(https://i.imgur.com/9qsIPPX.png) no-repeat 0px;
+  height: 44px;
+  width: 40px;
+  position: absolute;
+  right: 5px;
+}
+
+.input {
+  position: absolute;
+  padding: 6px 9px 0px;
+  height: 100%;
+  width: 403px;
+}
+
+.type {
+  font-family: arial,sans-serif;
+  font-size: 16px;
+  color: #191919;
+  line-height: 34px;
+  border: none;
+  padding: none;
+  margin: none;
+  outline: none;
+  height: 24px;
+  width: 100%;
+  spellcheck="false";
+}
+
+center {
+  display: block;
+  text-align: center;
+}
+
+.searchbuttons {
+  padding-top: 18px;
+  margin: 0px auto;
+  width: 571px;
+  height: 76px;
+}
+
+.searchbuttons input[type="submit"] {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.searchbuttons input[type="submit"]:hover {
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-color: #f8f8f8;
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+.searchbuttons input[type="submit"]:active {
+  border: 1px solid #1a0dab;
+  outline: 0;
+}
+
+.output-languages {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.lang-links {
+  display: inline-block;
+  line-height: 28px;
+  font-size: small;
+
+}
+
+.lang-links a {
+  color: #1a0dab;
+  text-decoration: none;
+  padding: 0 3px;
+}
+
+.lang-links a:hover {
+  text-decoration: underline;
+}
+
+.lang-links a:visited {
+  color: #609;
+}
+
+/* Footer -------------------------*/
+
+.footercontainer {
+  display: block;
+  min-width: 580px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.regioncontainer, .corpcontainer {
+  display: block;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footerbar {
+  background: #f2f2f2;
+  line-height: 40px;
+}
+
+.region {
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+  margin-left: 30px;
+  text-align: left;
+
+}
+
+.legal {
+  padding: 0px 30px 0px;
+  font-size: small;
+  float: right;
+}
+
+.legal a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2px 10px 0;
+  color: #666;
+}
+
+.legal a:hover {
+  text-decoration: underline;
+}
+
+.business {
+  font-size: small;
+}
+
+.business a {
+  display: inline-block;
+  text-decoration: none;
+  color: #666;
+  padding-left: 30px;
+}
+
+.business a:hover {
+  text-decoration: underline;
 }
