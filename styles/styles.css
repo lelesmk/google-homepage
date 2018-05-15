@@ -60,7 +60,7 @@ body {
 }
 
 .icon .apps {
-    background-image: url("images/apps-off-button-20x20px.png") no-repeat 5px;
+    background-image: url(https://lelesmk.github.io/google-homepage/images/apps-off-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     box-sizing: border-box;
     height: 30px;
@@ -68,7 +68,7 @@ body {
 }
 
 .icon .apps:hover {
-    background-image: url("images/apps-on-button-20x20px.png") no-repeat 5px;
+    background-image: url(https://lelesmk.github.io/google-homepage/images/apps-on-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     box-sizing: border-box;
     height: 30px;
@@ -76,7 +76,7 @@ body {
 }
 
 .icon .msg {
-    background-image: url("images/msg-off-button-20x20px.png") no-repeat 5px;
+    background-image: url(https://lelesmk.github.io/google-homepage/images/msg-off-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     verticle-align: middle;
     box-sizing: border-box;
@@ -85,7 +85,7 @@ body {
 }
 
 .icon .msg:hover {
-    background-image: url("images/msg-on-button-20x20px.png") no-repeat 5px;
+    background-image: url(https://lelesmk.github.io/google-homepage/images/msg-on-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     box-sizing: border-box;
     height: 30px;
@@ -93,7 +93,7 @@ body {
 }
 
 .icon .account {
-    background-image: url("images/account-30x30px.png") no-repeat 0px;
+    background-image: url(https://lelesmk.github.io/google-homepage/images/account-30x30px.png) no-repeat 0px;
     display: inline-block;
     box-sizing: border-box;
     height: 30px;
@@ -140,7 +140,7 @@ a.images:hover {
 }
 
 .mic {
-  background: url("images/Google-mic-16x23px.png") no-repeat 0px;
+  background: url(https://lelesmk.github.io/google-homepage/images/Google-mic-16x23px.png) no-repeat 0px;
   height: 44px;
   width: 40px;
   position: absolute;
