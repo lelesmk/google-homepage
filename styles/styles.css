@@ -140,7 +140,9 @@ a.images:hover {
 }
 
 .mic {
-  background: url(https://lelesmk.github.io/google-homepage/images/Google-mic-16x23px.png) no-repeat 0px;
+  background-image: url("https://lelesmk.github.io/google-homepage/images/Google-mic-16x23px.png");
+  background-repeat: no-repeat;
+  background-position: center;
   height: 44px;
   width: 40px;
   position: absolute;
