@@ -49,17 +49,17 @@ body {
     display: block;
 }
 
-.topnav .mail {
+.char .mail {
     display: inline-block;
     margin: 7px 0px 7px 15px;
 }
 
-.topnav .images {
+.char .images {
     display: inline-block;
     margin: 7px 0px 7px 15px;
 }
 
-.topnav .apps {
+.icon .apps {
     background: url(images/apps-off-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     box-sizing: border-box;
@@ -67,7 +67,7 @@ body {
     width: 30px;
 }
 
-.topnav .apps:hover {
+.icon .apps:hover {
     background: url(images/apps-on-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     box-sizing: border-box;
@@ -75,7 +75,7 @@ body {
     width: 30px;
 }
 
-.topnav .msg {
+.icon .msg {
     background: url(images/msg-off-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     verticle-align: middle;
@@ -84,7 +84,7 @@ body {
     width: 30px;
 }
 
-.topnav .msg:hover {
+.icon .msg:hover {
     background: url(images/msg-on-button-20x20px.png) no-repeat 5px;
     display: inline-block;
     box-sizing: border-box;
@@ -92,7 +92,7 @@ body {
     width: 30px;
 }
 
-.topnav .account {
+.icon .account {
     background: url(images/account-30x30px.png) no-repeat 0px;
     display: inline-block;
     box-sizing: border-box;
